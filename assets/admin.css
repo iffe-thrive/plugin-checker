@@ -1,0 +1,29 @@
+.plchk-wrap .plchk-summary{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0}
+.plchk-wrap .plchk-stat{background:#fff;border:1px solid #dcdcde;border-radius:6px;padding:12px 18px;min-width:110px;text-align:center;font-size:12px;color:#50575e}
+.plchk-wrap .plchk-stat span{display:block;font-size:24px;font-weight:600;color:#1d2327;margin-bottom:2px}
+.plchk-wrap .plchk-stat.plchk-error span{color:#b32d2e}
+.plchk-wrap .plchk-stat.plchk-warn span{color:#996800}
+.plchk-table td{vertical-align:top}
+.plchk-issues{margin:0;padding-left:0;list-style:none}
+.plchk-issue{padding:6px 8px;border-radius:4px;margin-bottom:4px;border-left:4px solid #dcdcde;background:#f6f7f7}
+.plchk-issue.plchk-error{border-left-color:#b32d2e;background:#fcf0f1}
+.plchk-issue.plchk-warning{border-left-color:#dba617;background:#fcf9e8}
+.plchk-issue.plchk-info{border-left-color:#2271b1;background:#f0f6fc}
+.plchk-tag{display:inline-block;font-size:11px;text-transform:uppercase;background:#1d2327;color:#fff;padding:1px 6px;border-radius:3px;margin-right:6px;letter-spacing:.03em}
+.plchk-ok{color:#00733d;font-weight:500}
+.plchk-badge{display:inline-block;background:#dcdcde;color:#1d2327;padding:2px 8px;border-radius:10px;font-size:11px}
+.plchk-badge-active{background:#00733d;color:#fff}
+#plchk-spinner{visibility:hidden}
+#plchk-spinner.is-active{visibility:visible;display:inline-block}
+.plchk-widget{margin:0;padding:0;list-style:none}
+.plchk-widget li{padding:4px 0;border-bottom:1px solid #f0f0f1}
+.plchk-widget li:last-child{border-bottom:0}
+#wpadminbar .plchk-bar-error{color:#ff8787!important}
+#wpadminbar .plchk-bar-warn{color:#ffce70!important}
+.plchk-usage{margin-top:8px;padding:8px;background:#f6f7f7;border-left:3px solid #2271b1;border-radius:3px}
+.plchk-usage summary{cursor:pointer;font-weight:500;color:#2271b1}
+.plchk-usage-meta{margin:6px 0;font-size:12px}
+.plchk-usage-meta code{background:#fff;padding:1px 5px;border-radius:3px;margin-right:4px;font-size:11px}
+.plchk-usage-table{width:100%;margin-top:6px;border-collapse:collapse;font-size:12px;background:#fff}
+.plchk-usage-table th,.plchk-usage-table td{padding:4px 8px;text-align:left;border-bottom:1px solid #f0f0f1}
+.plchk-usage-table th{background:#f6f7f7;font-weight:600}

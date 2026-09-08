@@ -1,0 +1,1 @@
+# Plugin checker for conflicts
